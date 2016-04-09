@@ -133,10 +133,10 @@ $(window).load(function(){
 				dottedOverlay: "none",
 				delay: 9000,
 				navigation: {
-					keyboardNavigation: "off",
+					keyboardNavigation: "true",
 					keyboard_direction: "horizontal",
 					mouseScrollNavigation: "off",
-					onHoverStop: "off",
+					onHoverStop: "true",
 					touch: {
 						touchenabled: "on",
 						swipe_threshold: 75,
@@ -168,7 +168,7 @@ $(window).load(function(){
 				spinner: "off",
 				stopLoop: "on",
 				stopAfterLoops: 0,
-				stopAtSlide: 1,
+				stopAtSlide: 10,
 				shuffle: "off",
 				autoHeight: "off",
 				minHeight:600,
@@ -184,7 +184,7 @@ $(window).load(function(){
 				debugMode: false,
 				fallbacks: {
 					simplifyAll: "off",
-					nextSlideOnWindowFocus: "off",
+					nextSlideOnWindowFocus: "true",
 					disableFocusListener: false,
 				}
 			});
@@ -210,10 +210,10 @@ $(window).load(function(){
 				dottedOverlay:"none",
 				delay:9000,
 				navigation: {
-					keyboardNavigation:"off",
+					keyboardNavigation:"true",
 					keyboard_direction: "horizontal",
 					mouseScrollNavigation:"off",
-					onHoverStop:"off",
+					onHoverStop:"true",
 					touch:{
 						touchenabled:"on",
 						swipe_threshold: 75,
@@ -261,7 +261,7 @@ $(window).load(function(){
 				spinner:"off",
 				stopLoop:"on",
 				stopAfterLoops:0,
-				stopAtSlide:1,
+				stopAtSlide:10,
 				shuffle:"off",
 				autoHeight:"off",
 				disableProgressBar:"on",
@@ -272,7 +272,7 @@ $(window).load(function(){
 				debugMode:false,
 				fallbacks: {
 					simplifyAll:"off",
-					nextSlideOnWindowFocus:"off",
+					nextSlideOnWindowFocus:"true",
 					disableFocusListener:false,
 				}
 			});
@@ -298,10 +298,10 @@ $(window).load(function(){
 				dottedOverlay:"none",
 				delay:9000,
 				navigation: {
-					keyboardNavigation:"off",
+					keyboardNavigation:"true",
 					keyboard_direction: "horizontal",
 					mouseScrollNavigation:"off",
-					onHoverStop:"off",
+					onHoverStop:"true",
 					arrows: {
 						style:"metis",
 						enable:true,
@@ -367,7 +367,7 @@ $(window).load(function(){
 				spinner:"off",
 				stopLoop:"on",
 				stopAfterLoops:0,
-				stopAtSlide:1,
+				stopAtSlide:10,
 				shuffle:"off",
 				autoHeight:"off",
 				disableProgressBar:"on",
@@ -378,7 +378,7 @@ $(window).load(function(){
 				debugMode:false,
 				fallbacks: {
 					simplifyAll:"off",
-					nextSlideOnWindowFocus:"off",
+					nextSlideOnWindowFocus:"true",
 					disableFocusListener:false,
 				}
 			});
@@ -401,7 +401,7 @@ $(window).load(function(){
 				jsFileLocation:"../../revolution/js/",
 				sliderLayout:"fullscreen",
 				dottedOverlay:"none",
-				delay:20000,
+				delay:12000,
 				navigation: {
 				},
 				responsiveLevels:[1240,1024,778,778],
